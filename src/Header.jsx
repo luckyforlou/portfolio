@@ -13,6 +13,8 @@ return (
       <NavBar></NavBar>
     </nav> 
   </div>
+
+  <div className="image"></div>
   
 
 </section>
