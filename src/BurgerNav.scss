@@ -1,0 +1,38 @@
+$bg: #0e0217;
+$purple: #5a19b7;
+$white: #e2edf4;
+$turq: #19b797;
+$boxTurq: -3px 3px 0px 1px $turq;
+$boxNoir: -5px 5px 0px 1px #000;
+
+@media (max-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+  }
+  
+  
+  .navMobile {
+    background: linear-gradient(
+      to bottom,
+      $turq 0%,
+      rgba(2, 0, 36, 1) 20%,
+      transparent 20%,
+      transparent 40%,
+      $turq 40%,
+      rgba(2, 0, 36, 1) 60%,
+      transparent 60%,
+      transparent 80%,
+      $turq 80%,
+      rgba(2, 0, 36, 1) 100%
+    );
+    height: 48px;
+    width: 48px;
+    position: fixed;
+    margin: 1%;
+    right: 10px;
+    top: 2%;
+    cursor: pointer;
+    align-self: flex-end;
+    z-index: 999;
+  }
