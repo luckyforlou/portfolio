@@ -40,7 +40,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://ales.netlify.app/",
+  "homepage-inactif": "https://ales.netlify.app/",
   "homepage-aide": "Avant de déployer sur GitHub vous devez configurer correctement la propriété homepage ci-dessus : 1) retirer le suffixe '-inactif' de l'étiquette, et 2) remplacer 'username' par le nom de votre compte GitHub et 'depot-gh' par le nom de votre dépôt GitHub dans la valeur de la propriété.",
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.3",
