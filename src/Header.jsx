@@ -7,7 +7,7 @@ return (
 
   
 
-  <div className="container mx-auto p-5">
+  <div className=" navBar container mx-auto p-5">
     <nav uk-sticky="show-on-up: true; animation: uk-animation-slide-top;" className="flex justify-between">
       <div>
         <a href="#">Logo</a>

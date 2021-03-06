@@ -1,11 +1,11 @@
-import './About.scss';
+import './AboutIndex.scss';
 import aboutAvatar from './media/avatar.png'
 
-export default function About() {
+export default function AboutIndex() {
     return (
     <section id="about">
     
-      <div className="avatar"></div>
+      <div uk-parallax="y: -200" className="avatar"></div>
       
     
     </section>

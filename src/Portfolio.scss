@@ -6,14 +6,20 @@ $boxTurq: -3px 3px 0px 1px $turq;
 $boxNoir: -5px 5px 0px 1px #000;
 
 #portfolio{
-    justify-content: center;
-    align-content: center;
     flex-direction: column;
     margin-top:10em;
     padding-bottom:10em;
+    align-items: center;
+
+    h1{
+        font-family: "Saira", sans-serif;
+        color:$turq;
+        font-size: 4em;
+    }
 
     .typeProject{
-        background-color:$purple;
+        margin-top:1em;
+        background-color:$turq;
         width:60vw;
     }
 }

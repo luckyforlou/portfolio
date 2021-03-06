@@ -4,10 +4,18 @@ import ResponsiveMenu from 'react-responsive-navbar';
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
 import './Nav.scss';
- 
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 export default class Nav extends Component {
   render() {
     return (
+      <Router>
       <ResponsiveMenu
         menuOpenButton={<MenuIcon/>}
         menuCloseButton={<CloseIcon/>}
@@ -16,12 +24,15 @@ export default class Nav extends Component {
         smallMenuClassName="flex smallMenu"
         menu={
             <ul>
-              <li><a href="#about">About</a></li>
-              <li><a>Porfolio</a></li>
-              <li><a>Contact</a></li>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/portfolio">Portfolio</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
         }
       />
-    );
-  }
+    </Router>
+  );
 }
+}
+
+
