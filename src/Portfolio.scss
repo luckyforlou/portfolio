@@ -1,3 +1,19 @@
+$bg: #0e0217;
+$purple: #5a19b7;
+$white: #e2edf4;
+$turq: #19b797;
+$boxTurq: -3px 3px 0px 1px $turq;
+$boxNoir: -5px 5px 0px 1px #000;
+
 #portfolio{
     justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top:10em;
+    padding-bottom:10em;
+
+    .typeProject{
+        background-color:$purple;
+        width:60vw;
+    }
 }

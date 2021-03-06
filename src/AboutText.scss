@@ -1,3 +1,17 @@
+$bg: #0e0217;
+$purple: #5a19b7;
+$white: #e2edf4;
+$turq: #19b797;
+$boxTurq: -5px 5px 0px 1px $turq;
+$boxNoir: -5px 5px 0px 1px #000;
 .aboutTxt{
     margin:0 3em;
+    background-color: $purple;
+    box-shadow: $boxTurq;
+    padding:2em;
+    width: 50vw;
+    h1{
+        color:$turq;
+        font-weight: bold;
+    }
 }

@@ -9,7 +9,7 @@ export default function Appli() {
   return (
     <div className="Appli">
       <Header/>
-      <div uk-parallax="bgy: -200" className="about flex"> <About></About> <AboutText></AboutText></div> 
+      <div className="about flex"> <About></About> <AboutText></AboutText></div> 
       <Portfolio></Portfolio>
       <Footer>
       </Footer>

@@ -5,9 +5,16 @@ $turq: #19b797;
 $boxTurq: -3px 3px 0px 1px $turq;
 $boxNoir: -5px 5px 0px 1px #000;
 .avatar{
+    background-image: url("./media/avatar.png");
+    width:20vw;
+    height:20vw;
+    background-size: 17vw auto;
+    background-repeat: no-repeat;
+    background-position: center;;
 margin-left:3em;
-background-color:$turq;
-width:30vw;
-height: 30vw;
+border: 0.5em solid $turq;
 border-radius: 50%;
+img{
+    width:30vw;
+}
 }
