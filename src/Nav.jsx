@@ -5,7 +5,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
 import './Nav.scss';
  
-export default class Example extends Component {
+export default class Nav extends Component {
   render() {
     return (
       <ResponsiveMenu
@@ -16,8 +16,8 @@ export default class Example extends Component {
         smallMenuClassName="flex smallMenu"
         menu={
             <ul>
-              <li><a>Porfolio</a></li>
               <li><a>About</a></li>
+              <li><a>Porfolio</a></li>
               <li><a>Contact</a></li>
             </ul>
         }
