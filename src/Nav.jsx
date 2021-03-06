@@ -16,7 +16,7 @@ export default class Nav extends Component {
         smallMenuClassName="flex smallMenu"
         menu={
             <ul>
-              <li><a>About</a></li>
+              <li><a href="#about">About</a></li>
               <li><a>Porfolio</a></li>
               <li><a>Contact</a></li>
             </ul>
