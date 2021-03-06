@@ -1,31 +1,22 @@
 import './Appli.scss';
-import Header from './Header';
-import AboutIndex from './AboutIndex';
-import AboutIndexText from './AboutIndexText';
-import Portfolio from './Portfolio';
-import Footer from './Footer';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
+import Index from './Index/Index';
 
 
 export default function Appli() {
   return (
     <Router>
           <div className="Appli">
-      <Header/>
-      <div className="about flex"> <AboutIndex></AboutIndex> <AboutIndexText></AboutIndexText></div> 
-      <Portfolio></Portfolio>
-      <Footer>
-      </Footer>
+     <Index/>
     </div>
 
     <Switch>
           <Route exact path="/">
-            <Home />
+          <Home/>
           </Route>
           <Route path="/about">
             <About />
@@ -48,7 +39,7 @@ export default function Appli() {
 function Home() {
   return (
     <div>
-      <h2>Home</h2>
+     <Index/>
     </div>
   );
 }

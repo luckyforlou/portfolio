@@ -1,5 +1,4 @@
 import './AboutIndex.scss';
-import aboutAvatar from './media/avatar.png'
 
 export default function AboutIndex() {
     return (

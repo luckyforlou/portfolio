@@ -1,12 +1,12 @@
-import './Header.scss';
-import NavBar from './Nav';
+import './HeaderIndex.scss';
+import NavBar from '../Commun/Nav';
 import {
   BrowserRouter as Router,
   Link
 } from "react-router-dom";
 
 
-export default function Header() {
+export default function HeaderIndex() {
 return (
   <Router>
 <section id="header">

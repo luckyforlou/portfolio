@@ -1,5 +1,5 @@
-import './Portfolio.scss';
-import Banner from './media/banner.png';
+import './PortfolioIndex.scss';
+import Banner from '../media/banner.png';
 
 
 export default function Header() {
