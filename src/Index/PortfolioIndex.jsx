@@ -1,5 +1,8 @@
 import './PortfolioIndex.scss';
 import Banner from '../media/banner.png';
+import {
+  Link
+} from "react-router-dom";
 
 
 export default function Header() {
@@ -12,7 +15,7 @@ return (
         <div className="uk-inline-clip uk-transition-toggle">
             <img src={Banner} alt=""/>
             <div className="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-primary uk-flex uk-flex-center uk-flex-middle">
-                <p className="uk-h4 uk-margin-remove">Games</p>
+                <p className="uk-h4 uk-margin-remove"><Link to="/portfolio">Games</Link></p>
             </div>
         </div>
     </div>
@@ -21,7 +24,7 @@ return (
         <div className="uk-inline-clip uk-transition-toggle">
             <img src={Banner} alt=""/>
             <div className="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-primary uk-flex uk-flex-center uk-flex-middle">
-                <p className="uk-h4 uk-margin-remove">Illustration</p>
+                <p className="uk-h4 uk-margin-remove"><Link to="/portfolio">Illustration</Link></p>
             </div>
         </div>
     </div>
@@ -30,7 +33,7 @@ return (
         <div className="uk-inline-clip uk-transition-toggle">
             <img src={Banner} alt=""/>
             <div className="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-primary uk-flex uk-flex-center uk-flex-middle">
-                <p className="uk-h4 uk-margin-remove">3D</p>
+                <p className="uk-h4 uk-margin-remove"><Link to="/portfolio">3D</Link></p>
             </div>
         </div>
     </div>
