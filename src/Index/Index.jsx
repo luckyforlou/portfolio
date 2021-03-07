@@ -10,7 +10,7 @@ export default function Index(){
     return(
         <div className="index">
         <HeaderIndex/>
-        <div className="about flex"> <AboutIndex></AboutIndex> <AboutIndexText></AboutIndexText></div> 
+        <div uk-scrollspy="cls:uk-animation-fade" className="about flex"> <AboutIndex></AboutIndex> <AboutIndexText></AboutIndexText></div> 
         <Portfolio></Portfolio>
         </div>
       
