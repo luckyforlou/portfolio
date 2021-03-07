@@ -15,7 +15,7 @@ return (
         <div className="uk-inline-clip uk-transition-toggle">
             <img src={Banner} alt=""/>
             <div className="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-primary uk-flex uk-flex-center uk-flex-middle">
-                <p className="uk-h4 uk-margin-remove"><Link to="/portfolio">Games</Link></p>
+                <p className="uk-h4 uk-margin-remove"><Link to="/portfolio/games">Games</Link></p>
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@ return (
         <div className="uk-inline-clip uk-transition-toggle">
             <img src={Banner} alt=""/>
             <div className="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-primary uk-flex uk-flex-center uk-flex-middle">
-                <p className="uk-h4 uk-margin-remove"><Link to="/portfolio">Illustration</Link></p>
+                <p className="uk-h4 uk-margin-remove"><Link to="/portfolio/illustration">Illustration</Link></p>
             </div>
         </div>
     </div>
@@ -33,7 +33,7 @@ return (
         <div className="uk-inline-clip uk-transition-toggle">
             <img src={Banner} alt=""/>
             <div className="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-primary uk-flex uk-flex-center uk-flex-middle">
-                <p className="uk-h4 uk-margin-remove"><Link to="/portfolio">3D</Link></p>
+                <p className="uk-h4 uk-margin-remove"><Link to="/portfolio/3d">3D</Link></p>
             </div>
         </div>
     </div>
