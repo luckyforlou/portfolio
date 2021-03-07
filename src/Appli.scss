@@ -10,4 +10,14 @@
       background-color: $bg;
       font-family: "Saira", sans-serif;
       color:$white;
+      .filtreNav{
+        margin-bottom:1em;
+      }
+      .filtreNav a:hover{
+        background-color: $purple;
+        color:$white;
+      }
+      .portfolioImg{
+        margin-bottom:6em;
+      }
     }
