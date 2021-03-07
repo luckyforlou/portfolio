@@ -8,12 +8,15 @@ import Index from './Index/Index';
 import About from './About/About';
 import Contact from './Contact/Contact';
 import Portfolio from './Portfolio/Portfolio';
+import Footer from './Commun/Footer';
+import Nav from './Commun/Nav'
 
 
 export default function Appli() {
   return (
     <Router>
           <div className="Appli">
+          <Nav></Nav>
  
       <Switch>
           <Route exact path="/" component={Index}/>
@@ -22,6 +25,8 @@ export default function Appli() {
           <Route path="/contact" component={Contact}/>
         </Switch>
       </div>
+
+      <Footer></Footer>
     </Router>
 
 
