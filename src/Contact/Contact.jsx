@@ -1,9 +1,10 @@
 import './Contact.scss';
+import FormContact from './FormContact';
 
 export default function Contact(){
     return(
         <section id="contact">
-          <h1>CONTAAAAAAAACT</h1>
+      <FormContact></FormContact>
       </section>
     );
 }

@@ -1,8 +1,7 @@
 import './Footer.scss';
-import Artstation from '../media/icons/artstation.png'
-import Instagram from '../media/icons/instagram.png'
-import Itch from '../media/icons/itch.png'
-import Twitter from '../media/icons/twitter.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArtstation, fab, faInstagram, faItchIo, faTwitch, faTwitter } from '@fortawesome/free-brands-svg-icons'
+
 
 export default function Footer(){
     return(
@@ -14,16 +13,16 @@ export default function Footer(){
 
         <ul id="footerNav" className="flex flex-row">
           <li>
-              <a  target="blank" href="https://www.instagram.com/pxales/"><img src={Instagram} alt="link to instagram profile"/></a>
+              <a  target="blank" href="https://www.instagram.com/pxales/"><FontAwesomeIcon icon={faInstagram} /></a>
           </li>
           <li>
-              <a target="blank"href="https://www.artstation.com/pxales"><img src={Artstation} alt="link to artstation profile"/></a>
+              <a target="blank"href="https://www.artstation.com/pxales"><FontAwesomeIcon icon={faArtstation} /></a>
           </li>
           <li>
-              <a target="blank" href="https://pxales.itch.io/"><img src={Itch} alt="link to itch.io profile"/></a>
+              <a target="blank" href="https://pxales.itch.io/"><FontAwesomeIcon icon={faItchIo} /></a>
           </li>
           <li>
-              <a target="blank" href="https://twitter.com/pxales"><img src={Twitter} alt="link to twitter profile"/></a>
+              <a target="blank" href="https://twitter.com/pxales"><FontAwesomeIcon icon={faTwitter} /></a>
           </li>
         
         </ul>
