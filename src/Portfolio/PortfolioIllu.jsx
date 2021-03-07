@@ -6,7 +6,7 @@ import {
       return (
   
         <div className="portfolioFiltre">
-        <ul className="uk-subnav uk-subnav-pill">
+        <ul className="uk-subnav uk-subnav-pill flex content-center justify-center">
             <li>
                 <Link to="/portfolio">All</Link>
             </li>
@@ -20,7 +20,7 @@ import {
                 <Link to="/3d">3D</Link>
             </li>
         </ul>
-        <ul>
+        <ul className="flex content-center justify-center">
     
         <li>
                  

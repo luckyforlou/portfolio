@@ -1,6 +1,6 @@
 import './Footer.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArtstation, fab, faInstagram, faItchIo, faTwitch, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faArtstation, faInstagram, faItchIo, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 
 export default function Footer(){
