@@ -25,9 +25,9 @@ export default function Appli() {
           <Route exact path="/" component={Index}/>
           <Route path="/about"><About></About></Route>
           <Route exact path="/portfolio" component={PortfolioAll}/>
-          <Route exact path="/portfolio/illustration" component={PortfolioIllu}/>
-          <Route exact path="/portfolio/games" component={PortfolioGames}/>
-          <Route exact path="/portfolio/3d" component={Portfolio3D}/>
+          <Route exact path="/illustration" component={PortfolioIllu}/>
+          <Route exact path="/games" component={PortfolioGames}/>
+          <Route exact path="/3d" component={Portfolio3D}/>
           <Route exact path="/contact" component={Contact}/>
         </Switch>
       </div>
