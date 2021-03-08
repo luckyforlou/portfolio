@@ -11,7 +11,7 @@ return (
 
   <h1>View Projects</h1>
 
-<div uk-scrollspy="cls:uk-animation-fade" className="typeProject uk-text-center">
+<div uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" className="typeProject uk-text-center">
         <div className="uk-inline-clip uk-transition-toggle">
             <img src={Banner} alt=""/>
             <div className="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-primary uk-flex uk-flex-center uk-flex-middle">
@@ -20,7 +20,7 @@ return (
         </div>
     </div>
     
-<div uk-scrollspy="cls:uk-animation-fade" className="typeProject uk-text-center">
+<div uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" className="typeProject uk-text-center">
         <div className="uk-inline-clip uk-transition-toggle">
             <img src={Banner} alt=""/>
             <div className="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-primary uk-flex uk-flex-center uk-flex-middle">
@@ -29,7 +29,7 @@ return (
         </div>
     </div>
     
-<div uk-scrollspy="cls:uk-animation-fade" className="typeProject uk-text-center">
+<div uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" className="typeProject uk-text-center">
         <div className="uk-inline-clip uk-transition-toggle">
             <img src={Banner} alt=""/>
             <div className="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-primary uk-flex uk-flex-center uk-flex-middle">

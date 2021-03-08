@@ -25,7 +25,7 @@ return (
 
             <div>
                 <a href="https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif">
-                    <img uk-scrollspy="cls:uk-animation-fade" src="https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif" alt="1" />
+                    <img uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" src="https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif" alt="1" />
                 </a>
             </div>
 
@@ -34,7 +34,7 @@ return (
 
             <div>
                 <a href="https://media.giphy.com/media/xT0xeQzcF9AmsPbB6w/giphy.gif">
-                    <img uk-scrollspy="cls:uk-animation-fade" src="https://media.giphy.com/media/xT0xeQzcF9AmsPbB6w/giphy.gif" alt="1" />
+                    <img uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" src="https://media.giphy.com/media/xT0xeQzcF9AmsPbB6w/giphy.gif" alt="1" />
                 </a>
             </div>
 
@@ -43,7 +43,7 @@ return (
 
             <div>
                 <a href="https://media.giphy.com/media/3rgXBDsgM9H2jHAB56/giphy.gif">
-                    <img uk-scrollspy="cls:uk-animation-fade" src="https://media.giphy.com/media/3rgXBDsgM9H2jHAB56/giphy.gif" alt="1" />
+                    <img uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" src="https://media.giphy.com/media/3rgXBDsgM9H2jHAB56/giphy.gif" alt="1" />
                 </a>
             </div>
 
@@ -53,7 +53,7 @@ return (
 
 <div>
     <a href="https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif">
-        <img uk-scrollspy="cls:uk-animation-fade" src="https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif" alt="1" />
+        <img uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" src="https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif" alt="1" />
     </a>
 </div>
 
@@ -62,7 +62,7 @@ return (
 
 <div>
     <a href="https://media.giphy.com/media/xT0xeQzcF9AmsPbB6w/giphy.gif">
-        <img uk-scrollspy="cls:uk-animation-fade" src="https://media.giphy.com/media/xT0xeQzcF9AmsPbB6w/giphy.gif" alt="1" />
+        <img uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" src="https://media.giphy.com/media/xT0xeQzcF9AmsPbB6w/giphy.gif" alt="1" />
     </a>
 </div>
 
@@ -71,7 +71,7 @@ return (
 
 <div>
     <a href="https://media.giphy.com/media/3rgXBDsgM9H2jHAB56/giphy.gif">
-        <img uk-scrollspy="cls:uk-animation-fade" src="https://media.giphy.com/media/3rgXBDsgM9H2jHAB56/giphy.gif" alt="1" />
+        <img uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" src="https://media.giphy.com/media/3rgXBDsgM9H2jHAB56/giphy.gif" alt="1" />
     </a>
 </div>
 
@@ -79,7 +79,7 @@ return (
 
 <div>
     <a href="https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif">
-        <img uk-scrollspy="cls:uk-animation-fade" src="https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif" alt="1" />
+        <img uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" src="https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif" alt="1" />
     </a>
 </div>
 
@@ -88,7 +88,7 @@ return (
 
 <div>
     <a href="https://media.giphy.com/media/xT0xeQzcF9AmsPbB6w/giphy.gif">
-        <img uk-scrollspy="cls:uk-animation-fade" src="https://media.giphy.com/media/xT0xeQzcF9AmsPbB6w/giphy.gif" alt="1" />
+        <img uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" src="https://media.giphy.com/media/xT0xeQzcF9AmsPbB6w/giphy.gif" alt="1" />
     </a>
 </div>
 
@@ -97,7 +97,7 @@ return (
 
 <div>
     <a href="https://media.giphy.com/media/3rgXBDsgM9H2jHAB56/giphy.gif">
-        <img uk-scrollspy="cls:uk-animation-fade" src="https://media.giphy.com/media/3rgXBDsgM9H2jHAB56/giphy.gif" alt="1" />
+        <img uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" src="https://media.giphy.com/media/3rgXBDsgM9H2jHAB56/giphy.gif" alt="1" />
     </a>
 </div>
 
