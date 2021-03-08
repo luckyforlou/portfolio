@@ -8,7 +8,13 @@ import './NavBurger.scss';
 import {
   Link
 } from "react-router-dom";
+const Mailto = ({ email, subject = '', body = '', children }) => {
+  let params = subject || body ? '?' : '';
+  if (subject) params += `subject=${encodeURIComponent(subject)}`;
+  if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
 
+  return <a href={`mailto:${email}${params}`}>{children}</a>;
+};
 export default class Nav extends Component {
   render() {
     return (
@@ -23,7 +29,7 @@ export default class Nav extends Component {
             <ul>
               <li><Link to="/about">About</Link></li>
               <li><Link to="/portfolio">Portfolio</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
+              <li id="contactLink"><Mailto email="sabrina-ales@hotmail.com">Contact< span uk-icon="mail"></span></Mailto></li>
             </ul>
         }
       />

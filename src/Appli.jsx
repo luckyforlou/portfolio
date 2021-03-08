@@ -28,7 +28,6 @@ export default function Appli() {
           <Route exact path="/illustration" component={PortfolioIllu}/>
           <Route exact path="/games" component={PortfolioGames}/>
           <Route exact path="/3d" component={Portfolio3D}/>
-          <Route exact path="/contact" component={Contact}/>
         </Switch>
       </div>
 

@@ -1,48 +1,53 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import './FormContact.scss';
 
 export default function FormContact() {
   const { register, handleSubmit,errors } = useForm();
   const onSubmit = data => console.log(data);
 
   return (
-   
-    <form onSubmit={handleSubmit(onSubmit)}>
+   <div className="contact">
+
+     
+   </div>
+//     <form className ="flex flex-col" onSubmit={handleSubmit(onSubmit)}>
        
-      <div className="uk-inline">
-             <span className="uk-form-icon" uk-icon="icon: user"></span>
-             <input name="name" className="uk-input" type="text" placeholder="Name" ref={register({ required: true })}/>
+//       <div className="uk-inline">
+//              <span className="uk-form-icon" uk-icon="icon: user"></span>
+//              <input name="name" className="uk-input" type="text" placeholder="Name" ref={register({ required: true })}/>
              
       
-         </div>
-{errors.name && <span>This field is required</span>}
+//          </div>
+// {errors.name && <span>This field is required</span>}
          
-        <div className="uk-inline">
-            <span className="uk-form-icon" uk-icon="icon: mail"></span>
-            <input name="email" className="uk-input" type="email" placeholder="Email" ref={register({ required: true })}/>
+//         <div className="uk-inline">
+//             <span className="uk-form-icon" uk-icon="icon: mail"></span>
+//             <input name="email" className="uk-input" type="email" placeholder="Email" ref={register({ required: true })}/>
             
-        </div>
-    {errors.email && <span>This field is required</span>}
+//         </div>
+//     {errors.email && <span>This field is required</span>}
 
     
-        <div className="uk-inline">
-            <span className="uk-form-icon" uk-icon="icon: pencil"></span>
-            <input name="subject" className="uk-input" type="text" placeholder="Subject" ref={register({ required: true })}/>
+//         <div className="uk-inline">
+//             <span className="uk-form-icon" uk-icon="icon: pencil"></span>
+//             <input name="subject" className="uk-input" type="text" placeholder="Subject" ref={register({ required: true })}/>
            
-        </div>
-     {errors.subject && <span>This field is required</span>}
+//         </div>
+//      {errors.subject && <span>This field is required</span>}
 
     
-        <div className="uk-inline">
-            <a className="uk-form-icon" href="#" uk-icon="icon: comment"></a>
-            <input name="message" className="uk-input" type="text" placeholder="Message" rows="5" ref={register({ required: true })}/>
+//         <div className="uk-inline messageBox">
+//         <span className="uk-form-icon" uk-icon="icon: comment"></span>
             
-        </div>
-   {errors.message && <span>This field is required</span>}
-
-      <input type="submit" className="uk-button uk-button-primary" />
+//             <input name="message" className="uk-input" type="text" placeholder="Message" ref={register({ required: true })}/>
+            
+//         </div>
+//    {errors.message && <span>This field is required</span>}
+//       <div><input type="submit" className="uk-button uk-button-primary" /></div>
       
-    </form>
+      
+//     </form>
   );
 }
 

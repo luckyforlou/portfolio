@@ -1,5 +1,4 @@
 import './HeaderIndex.scss';
-import Nav from '../Commun/Nav';
 
 export default function HeaderIndex() {
 return (

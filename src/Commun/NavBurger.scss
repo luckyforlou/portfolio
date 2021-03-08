@@ -24,3 +24,12 @@ li{
 
 }
 }
+#contactLink{
+    background-color: $purple;
+    padding:0.2em 0.7em;
+    margin-left:0.3em;
+    span{
+        vertical-align: bottom;
+        padding:0.2em;
+    }
+}
