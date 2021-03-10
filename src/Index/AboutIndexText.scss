@@ -9,7 +9,7 @@ $boxNoir: -5px 5px 0px 1px #000;
     background-color: $purple;
     box-shadow: $boxTurq;
     padding:2em;
-    width: 50vw;
+    width: 80vw;
     h2{
         font-size: 2em;
         font-family: "Saira", sans-serif;
@@ -17,3 +17,20 @@ $boxNoir: -5px 5px 0px 1px #000;
         font-weight: bold;
     }
 }
+
+@media (min-width: 600px) {
+    .aboutTxt{
+        margin:0 3em;
+        background-color: $purple;
+        box-shadow: $boxTurq;
+        padding:2em;
+        width: 50vw;
+        h2{
+            font-size: 2em;
+        }
+    }
+}
+      
+      @media (min-width: 1200px) {
+        
+      }

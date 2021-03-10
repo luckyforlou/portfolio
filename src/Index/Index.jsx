@@ -1,4 +1,5 @@
 
+import './Index.scss';
 import HeaderIndex from './HeaderIndex';
 import AboutIndex from './AboutIndex';
 import AboutIndexText from './AboutIndexText';
