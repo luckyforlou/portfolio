@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import Index from './Index/Index';
 import About from './About/About';
-import Contact from './Contact/Contact';
 import PortfolioAll from './Portfolio/PortfolioAll';
 import PortfolioIllu from './Portfolio/PortfolioIllu';
 import Portfolio3D from './Portfolio/Portfolio3d';
