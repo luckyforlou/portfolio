@@ -1,5 +1,4 @@
 import './PortfolioIndex.scss';
-import Banner from '../media/banner.png';
 import Games from '../media/games.png';
 import Illu from '../media/illu.png';
 import Aster from '../media/Aster2.png'

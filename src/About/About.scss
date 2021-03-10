@@ -12,5 +12,9 @@ $boxNoir: -5px 5px 0px 1px #000;
     h2, h3{
          color:$turq;
     }
+    img{
+        width:40vw;
+        transform: scaleX(-1);
+    }
    
 }
