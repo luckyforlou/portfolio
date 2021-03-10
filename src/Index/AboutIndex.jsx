@@ -4,7 +4,7 @@ export default function AboutIndex() {
     return (
     <section id="about">
     
-      <div uk-parallax="y: -200" className="avatar"></div>
+      <div className="avatar"></div>
       
     
     </section>

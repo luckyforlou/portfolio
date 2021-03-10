@@ -14,14 +14,24 @@ $boxNoir: -5px 5px 0px 1px #000;
     h1{
         font-family: "Saira", sans-serif;
         color:$turq;
-        font-size: 4em;
+        font-size: 3em;
     }
-
-    img{}
 
     .typeProject{
-        margin-top:1em;
+        margin-top:1.5em;
         background-color:$turq;
-        width:60vw;
+        width:90vw;
     }
 }
+
+@media (min-width: 600px) {
+    #portfolio{
+        .typeProject{
+        width:60vw;
+    }
+    }
+      }
+      
+      @media (min-width: 1200px) {
+        
+      }
