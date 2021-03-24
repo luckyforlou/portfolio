@@ -15,7 +15,7 @@ return (
     <Link to="/games">
     <div uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" className="typeProject uk-text-center">
         <div className="uk-inline-clip uk-transition-toggle">
-            <img src={Games} alt="" />
+            <img src={Games} alt="" /> <div className="mobileTitle">Jeux</div>
             <div
                 className="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
                 <p className="uk-h4 uk-margin-remove">Jeux</p>
@@ -26,7 +26,7 @@ return (
     <Link to="/illustration">
     <div uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" className="typeProject uk-text-center">
         <div className="uk-inline-clip uk-transition-toggle">
-            <img src={Illu} alt="" />
+            <img src={Illu} alt="" /><div className="mobileTitle">Illustrations</div>
             <div
                 className="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
                 <p className="uk-h4 uk-margin-remove">Illustrations</p>
@@ -36,10 +36,11 @@ return (
     </Link>
     <Link to="/3d">
     <div uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" className="typeProject uk-text-center">
-        <div className="uk-inline-clip uk-transition-toggle">
-            <img src={Aster} alt="" />
+        <div className="uk-inline-clip uk-transition-toggle"> 
+            <img src={Aster} alt="" /><div className="mobileTitle">3D</div>
             <div
-                className="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                className="desktopTitle uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                   
                 <p className="uk-h4 uk-margin-remove">3D</p>
             </div>
         </div>

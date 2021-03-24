@@ -23,12 +23,22 @@ $boxNoir: -5px 5px 0px 1px #000;
         background-color:$turq;
         width:90vw;
     }
+    .mobileTitle{
+        text-align: right;
+    margin-right: 2em;
+    color:$bg;
+    font-size: 1.5em;;
+    }
+
 }
 
 @media (min-width: 600px) {
     #portfolio{
         .typeProject{
         width:60vw;
+    }
+    .mobileTitle{
+        display:none;
     }
     }
       }
