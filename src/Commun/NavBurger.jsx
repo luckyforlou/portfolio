@@ -27,7 +27,7 @@ export default class Nav extends Component {
         smallMenuClassName="flex smallMenu"
         menu={
             <ul>
-              <li><Link to="/about">About</Link></li>
+              <li><Link to="/about">À Propos</Link></li>
               <li><Link to="/portfolio">Portfolio</Link></li>
               <li id="contactLink"><Mailto email="sabrina-ales@hotmail.com">Contact< span uk-icon="mail"></span></Mailto></li>
             </ul>

@@ -7,13 +7,13 @@ return (
 <div className="portfolioFiltre">
     <ul className="uk-subnav uk-subnav-pill flex content-center justify-center ">
         <li className="filtreNav">
-            <Link to="/portfolio">All</Link>
+            <Link to="/portfolio">Tout</Link>
         </li>
         <li className="filtreNav">
-            <Link to="/illustration">Illustration</Link>
+            <Link to="/illustration">Illustrations</Link>
         </li>
         <li className="filtreNav">
-            <Link to="/games">Games</Link>
+            <Link to="/games">Jeux</Link>
         </li>
         <li className="filtreNav">
             <Link to="/3d">3D</Link>

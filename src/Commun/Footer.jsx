@@ -13,16 +13,16 @@ export default function Footer(){
 
         <ul id="footerNav" className="flex flex-row">
           <li>
-              <a  target="blank" href="https://www.instagram.com/pxales/"><FontAwesomeIcon icon={faInstagram} /></a>
+              <a title="Instagram"  target="blank" href="https://www.instagram.com/pxales/"><FontAwesomeIcon icon={faInstagram} /></a>
           </li>
           <li>
-              <a target="blank"href="https://www.artstation.com/pxales"><FontAwesomeIcon icon={faArtstation} /></a>
+              <a title="Artstation" target="blank"href="https://www.artstation.com/pxales"><FontAwesomeIcon icon={faArtstation} /></a>
           </li>
           <li>
-              <a target="blank" href="https://pxales.itch.io/"><FontAwesomeIcon icon={faItchIo} /></a>
+              <a title="Itchio" target="blank" href="https://pxales.itch.io/"><FontAwesomeIcon icon={faItchIo} /></a>
           </li>
           <li>
-              <a target="blank" href="https://twitter.com/pxales"><FontAwesomeIcon icon={faTwitter} /></a>
+              <a title="Twitter" target="blank" href="https://twitter.com/pxales"><FontAwesomeIcon icon={faTwitter} /></a>
           </li>
         
         </ul>
