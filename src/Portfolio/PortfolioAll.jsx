@@ -7,7 +7,6 @@ import{entriesAll} from '../services/contentfulConfig'
 
 
 export default function PortfolioAll() {
-console.log(entriesAll);
 return (
 <div className="portfolioFiltre">
     <ul className="uk-subnav uk-subnav-pill flex content-center justify-center ">
@@ -27,9 +26,9 @@ return (
 
     <ul className="portfolioImg flex content-center justify-center flex-wrap">
       
-         {entriesAll.map(entry => <li uk-lightbox="animation: fade">  <div>
+         {entriesAll.map(entry => <li key={entry.id} uk-lightbox="animation: fade">  <div>
                 <a href={entry.file.url}>
-                    <img uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" src={entry.file.url} alt="1" />
+                    <img className="max-w-md" uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" src={entry.file.url} alt="1" />
                 </a>
             </div></li>)}
      

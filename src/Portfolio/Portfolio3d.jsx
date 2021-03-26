@@ -1,6 +1,7 @@
 import {
     Link
   } from "react-router-dom";
+  import{entries3D} from '../services/contentfulConfig'
   
   export default function Portfolio3D() {
       return (
@@ -19,19 +20,15 @@ import {
             <Link to="/3d">3D</Link>
         </li>
     </ul>
-    <ul className="portfolioImg flex content-center justify-center">
-
-    <li uk-lightbox="animation: fade">
-
-<div>
-    <a href="https://media.giphy.com/media/3rgXBDsgM9H2jHAB56/giphy.gif">
-        <img src="https://media.giphy.com/media/3rgXBDsgM9H2jHAB56/giphy.gif" alt="1" />
-    </a>
-</div>
-
-</li>
-
-    </ul>
+    <ul className="portfolioImg flex content-center justify-center flex-wrap">
+    
+        {entries3D.map(entry => <li key={entry.id} uk-lightbox="animation: fade">  <div>
+                <a href={entry.file.url}>
+                    <img className="max-w-md" uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" src={entry.file.url} alt="1" />
+                </a>
+            </div></li>)}
+    
+        </ul>
 </div>
     
       );

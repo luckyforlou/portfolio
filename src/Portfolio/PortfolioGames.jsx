@@ -1,6 +1,7 @@
 import {
 Link
 } from "react-router-dom";
+import{entriesJeux} from '../services/contentfulConfig'
 
 export default function PortfolioGames() {
 return (
@@ -20,19 +21,15 @@ return (
             <Link to="/3d">3D</Link>
         </li>
     </ul>
-    <ul className=" portfolioImg flex content-center justify-center">
-
-    <li uk-lightbox="animation: fade">
-
-<div>
-    <a href="https://media.giphy.com/media/xT0xeQzcF9AmsPbB6w/giphy.gif">
-        <img src="https://media.giphy.com/media/xT0xeQzcF9AmsPbB6w/giphy.gif" alt="1" />
-    </a>
-</div>
-
-</li>
-
-    </ul>
+    <ul className="portfolioImg flex content-center justify-center flex-wrap">
+      
+      {entriesJeux.map(entry => <li key={entry.id} uk-lightbox="animation: fade">  <div>
+             <a href={entry.file.url}>
+                 <img className="max-w-md" uk-scrollspy="cls:uk-animation-fade delay: 500; repeat: true" src={entry.file.url} alt="1" />
+             </a>
+         </div></li>)}
+  
+ </ul>
 </div>
 
 
