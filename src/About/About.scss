@@ -2,7 +2,7 @@ $bg: #0e0217;
 $purple: #5a19b7;
 $white: #e2edf4;
 $turq: #19b797;
-$boxTurq: -3px 3px 0px 1px $turq;
+$boxTurq: -5px 5px 0px 1px $turq;
 $boxNoir: -5px 5px 0px 1px #000;
 
 .intro{
@@ -14,13 +14,22 @@ $boxNoir: -5px 5px 0px 1px #000;
     }
     img{
         width:70vw;
-        transform: scaleX(-1);
     }
 
     .fullAbout{
+        width:80vw;
+        text-align:center;
         margin-top:2em;
-        padding:.5em;
-        background-color:$purple;
+        padding:1em;
+        background-color:$turq;
+        h2{
+             font-family: "Saira", sans-serif;
+        }
+        h3{
+             font-family: "Saira", sans-serif;
+            padding-top:1em;
+        }
+  
     }
 
     .skills li{
@@ -28,5 +37,49 @@ $boxNoir: -5px 5px 0px 1px #000;
         padding:.5em;
         
     }
-   
+
+    .moreAbout{
+        background-color: #5a19b7;
+        width:80vw;
+        padding:2em;
+        margin:2em 0;
+        box-shadow: $boxTurq;
+
+        p{margin-top:1em;}
+    }  
 }
+
+
+@media (min-width: 600px) {
+    
+.intro{
+       img{
+        width:60vw;
+    }
+    .fullAbout{
+        width:60vw;
+
+}
+.moreAbout{
+    width:70vw;
+
+}  
+  }
+}
+
+@media (min-width: 1200px) {
+    
+    .intro{
+           img{
+            width:40vw;
+        }
+        .fullAbout{
+            width:40vw;
+    
+    }
+    .moreAbout{
+        width:50vw;
+    
+    }
+      }
+    }

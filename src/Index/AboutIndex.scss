@@ -9,14 +9,14 @@ $boxNoir: -5px 5px 0px 1px #000;
     background-image: url("../media/avatar.png");
     width:40vw;
     height:40vw;
-    background-size: 33vw auto;
+    background-size: 41vw auto;
     background-repeat: no-repeat;
     background-position: center;
     margin-left:3em;
     border: 0.5em solid $turq;
     border-radius: 50%;
 img{
-    width:30vw;
+    width:40vw;
 }
 }
 
@@ -25,7 +25,7 @@ img{
     .avatar{
         width:20vw;
         height:20vw;
-        background-size: 17vw auto;
+        background-size: 22vw auto;
         margin-left:3em;
 
     img{
@@ -34,6 +34,3 @@ img{
     }
   }
   
-  @media (min-width: 1200px) {
-    
-  }
