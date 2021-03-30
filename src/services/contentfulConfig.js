@@ -8,7 +8,7 @@ const client = contentful.createClient({
 const entriesAll = [];
 client.getEntries().then(entries => {
     entries.items.forEach(entry => {
-        entriesAll.push({id: entry.fields.id, title: entry.fields.Image.fields.title, file: entry.fields.Image.fields.file })
+        entriesAll.push({id: entry.fields.id, title: entry.fields.Image.fields.title, file: entry.fields.Image.fields.file, thumbnail: entry.fields.thumbnail.fields.file.url, link: entry.fields.link})
       
     })
   })
@@ -18,7 +18,7 @@ client.getEntries().then(entries => {
 client.getEntries().then(entries => {
   entries.items.forEach(entry => {
      if(entry.fields.type==="Illustration"){
-       entriesIllu.push({id: entry.fields.id, title: entry.fields.Image.fields.title, file: entry.fields.Image.fields.file })} 
+       entriesIllu.push({id: entry.fields.id, title: entry.fields.Image.fields.title, file: entry.fields.Image.fields.file, thumbnail: entry.fields.thumbnail.fields.file.url})} 
 })
 })
 
@@ -27,7 +27,7 @@ const entriesJeux = [];
 client.getEntries().then(entries => {
   entries.items.forEach(entry => {
      if(entry.fields.type==="Jeux"){
-       entriesJeux.push({id: entry.fields.id, title: entry.fields.Image.fields.title, file: entry.fields.Image.fields.file })} 
+       entriesJeux.push({id: entry.fields.id, title: entry.fields.Image.fields.title, file: entry.fields.Image.fields.file, thumbnail: entry.fields.thumbnail.fields.file.url, link: entry.fields.link})} 
 })
 })
 
@@ -36,7 +36,7 @@ const entries3D = [];
 client.getEntries().then(entries => {
   entries.items.forEach(entry => {
      if(entry.fields.type==="3D"){
-       entries3D.push({id: entry.fields.id, title: entry.fields.Image.fields.title, file: entry.fields.Image.fields.file })} 
+       entries3D.push({id: entry.fields.id, title: entry.fields.Image.fields.title, file: entry.fields.Image.fields.file, thumbnail: entry.fields.thumbnail.fields.file.url })} 
 })
 })
 
