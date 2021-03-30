@@ -5,19 +5,9 @@ $turq: #19b797;
 $boxTurq: -3px 3px 0px 1px $turq;
 $boxNoir: -5px 5px 0px 1px #000;
 
-
-.largeMenu{
-    ul{
-        display:flex;
-        flex-direction: row;
-        li{
-            padding:5px;
-        }
-    }
-
-}
 .smallMenu{
 text-align:right;
+width:100%;
 li{
     font-size:3em;
     padding-top:10px;
@@ -26,10 +16,33 @@ li{
 }
 #contactLink{
     background-color: $purple;
-    padding:0.2em 0.7em;
-    margin-left:0.3em;
+    padding:0.3em;
     span{
-        vertical-align: bottom;
-        padding:0.2em;
+        padding-left:0.3em;
+        svg{
+            width:0.7em;
+            height:0.7em;
+        }
     }
 }
+
+@media (min-width: 600px) {
+    .largeMenu{
+        ul{
+            display:flex;
+            flex-direction: row;
+            li{
+                padding:5px;
+            }
+        }
+    
+    }
+
+    #contactLink{
+        padding:0.2em 0.7em;
+        margin-left:0.3em;
+        span{
+            vertical-align: bottom;
+            padding:0.2em;
+        }
+    }    }
